@@ -1,0 +1,570 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* header qismi  */
+
+.site_header {
+  position: relative;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  background-color: #FFFFFF;
+  width: 100%;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.site_header_content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.site_logo {
+  display: block;
+  max-width: 100%;
+}
+
+.site_logo_wrapper {
+  display: flex;
+  align-items: center;
+} 
+
+.site_navbar_list {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.site_navbar {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.site_navbar_list_item:nth-child(1) {
+  margin-left: 0;
+}
+
+.site_navbar_list_item {
+  margin-left: 32px;
+}
+
+.site_navbar_list_item_link {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.site_navbar_list_item_link:hover {
+  color: blueviolet;
+}
+
+.site_navbar_list_item_link:active {
+  color: brown;
+}
+
+.site_header_link {
+  margin-left: 24px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  color: #FFFFFF;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #00BAFC;
+  border-radius: 5px;
+}
+
+.site_header_link:hover {
+  background-color: #FFFFFF;
+  border: 2px solid #00BAFC;
+  color: #00BAFC;
+}
+
+.site_header_link:active {
+  background-color: blueviolet;
+  color: #FFFFFF;
+  border: 2px solid blueviolet;
+}
+
+/* site hero qismi  */
+
+.site_hero_wrapper {
+  padding-top: 150px;
+  display: flex;
+  padding-bottom: 80px;
+}
+
+.site_hero_text {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  color: #000000;
+  width: 470px;
+}
+
+.site_hero_small_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;  
+  color: #000000;
+  width: 465px;
+}
+
+.site_iframe {
+  border-radius: 15px;
+}
+
+.site_you_tube_link {
+  margin-left: auto;
+}
+
+.site_hero_link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background-color: #00BAFC;
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+
+.site_hero_link:hover {
+  background-color: #FFFFFF;
+  border: 2px solid #00BAFC;
+  color: #00BAFC;
+}
+
+.site_hero_link:active {
+  background-color: blueviolet;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+.site_hero_link_wrapper {
+  padding-top: 10px;
+}
+
+.site_you_tube_link {
+  padding-top: 15px;
+}
+
+.site_you_tube_link:hover {
+  opacity: 0.5;
+}
+
+/* xizmatlar qismi  */
+
+.site_services_wrapper_text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+  color: #000000;
+}
+
+.site_services_wrapper {
+  padding-top: 56px;
+}
+
+.site_services_wrapper_small_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;  
+  text-align: center;
+  color: #000000;
+  width: 719px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site_services_list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.site_services_list_item {
+  padding-left: 58px;
+  padding-right: 58px;
+  padding-top: 24px;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  margin-bottom: 48px;
+}
+
+.site_services_list_item:nth-child(4) {
+  margin-left: auto;
+  margin-right: 35px;
+  margin-bottom: 40px;
+}
+
+.site_services_list_item:nth-child(5) {
+  margin-right: auto;
+  margin-left: 35px;
+  margin-bottom: 40px;
+}
+
+.site_services_list_item:hover {
+  opacity: 0.8;
+  background-color: azure;
+}
+
+.site_services_list_item:active {
+  background-color: aquamarine;
+}
+
+.site_services_list_item_text_str {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  color: #000000;
+}
+
+.site_services_list_item_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.site_services_list_wrapper {
+  padding-top: 20px;
+}
+
+.site_services_link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  align-items: center;
+  padding: 8px 16px;
+  background: #00BAFC;
+  border-radius: 5px;
+}
+
+.site_services_link:hover {
+  color: #00BAFC;
+  background-color: #FFFFFF;
+  border: 2px solid #00BAFC;
+}
+
+.site_services_link:active {
+  background-color: blueviolet;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+}
+
+.second_site_services_link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #00BAFC;
+  margin-left: 16px;
+}
+
+.second_site_services_link:hover {
+  color: #00BAFC;
+}
+
+.second_site_services_link:active {
+  color: blueviolet;
+}
+
+.site_services_link_wrapper {
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 56px;
+}
+
+/* site like us qismi */
+
+.site_like_us_content_str {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+  color: #000000;
+}
+
+.site_like_us_content_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  width: 719px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site_like_us_content {
+  padding-top: 56px;
+}
+
+.site_like_us_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site_like_us_list_item_text_str {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  color: #000000;
+}
+
+.site_like_us_list_item_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  width: 493px;
+}
+
+.site_like_us_list_item {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.site_like_us_list_item:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+.site_like_us_list_item_text_wrapper {
+  padding-top: 75px;
+  padding-left: 35px;
+}
+
+.site_like_us_list_item:nth-child(1) {
+  margin-left: 80px;
+}
+
+.site_like_us_list_item:nth-child(4) {
+  flex-direction: row-reverse;
+}
+
+.img {
+  padding-top: 50px;
+  margin-left: 80px;
+}
+
+.site_like_us_link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background-color: #00BAFC;
+  border-radius: 5px;
+  padding: 8px 16px ;
+}
+
+.site_like_us_link:hover {
+  color: #00BAFC;
+  background-color: #FFFFFF;
+  border: 2px solid #00BAFC;
+}
+
+.site_like_us_link:active {
+  color: #FFFFFF;
+  background-color: blueviolet;
+  border: 2px solid #FFFFFF;
+}
+
+.site_like_us_link_wrapper {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+/* buyurma berish qismi  */
+
+.site_to_order_heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.site_to_order_section {
+  padding-top: 56px;
+  background-color: #00BAFC;
+  padding-bottom: 64px;
+}
+
+.site_to_order_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #FFFFFF;
+  width: 719px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site_to_order_input {
+  width: 300px;
+  background-color: #F3F3F3;
+  border-radius: 5px;
+  border: 0px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  color: #000000;
+} 
+
+.site_to_order_form {
+  margin-top:24px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 24px;
+  padding-left: 24px;
+  background-color: #FFFFFF;
+  width: 348px;
+  border-radius: 5px;
+}
+
+.site_to_order_select {
+  width: 320px;
+  border-radius: 5px;
+  height: 56px;
+  background: #F3F3F3;
+  padding-top: 16px;
+  padding-left: 14px;
+  padding-bottom: 16px;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.site_to_order_select::placeholder {
+  color: #000000;
+}
+
+.site_to_order_form::placeholder {
+  color: #000000;
+}
+
+.button {
+  background-color: #00BAFC;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-left: 70px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.button:hover {
+  background-color: #F3F3F3;
+  border: 2px solid #00BAFC;
+  color: #00BAFC;
+}
+
+.button:active {
+  background-color: blueviolet;
+  color: #FFFFFF;
+  border: 2px solid blueviolet;
+}
+
+
+/* footer qismi */
+
+.site_footer_text_str {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  color: #FFFFFF;  
+}
+
+.site_footer_content {
+  display: flex;
+}
+
+.site_footer {
+  background-color: #000000;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.site_footer_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+  width: 320px;
+}
+
+.site_footer_list_item_link {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.site_footer_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 100px;
+}
+
+.site_footer_list_item_heading {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
